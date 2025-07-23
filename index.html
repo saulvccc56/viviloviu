@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Look this page, when stay sad </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Botón pequeño y contenedor de imagen real -->
+<div class="real-story">
+  <button onclick="toggleRealPhoto()">📝 Basada en hechos reales</button>
+  <div id="real-photo" class="real-photo hidden">
+    <img src="foto_real.png" alt="Foto real de la historia">
+    <p>2023-hasta que la aguante</p>
+  </div>
+</div>
+
+<body>
+  <div class="overlay"></div>
+  <div class="particles"></div>
+
+  <div class="game-container">
+    <h1 class="title">Look this page, when stay sad</h1>
+    <p class="subtitle">Una historia al estilo <em>The Notebook</em></p>
+
+    <button class="romantic-button" onclick="showScene()">Sayul</button>
+<button class="romantic-button" onclick="showMemories()">Recuerdos de antes de que me convirtiera en un minion</button>
+
+    <div class="scene" id="scene">
+      <!-- Imagen + música + texto aparecerán aquí -->
+    </div>
+    <div class="memories" id="memories">
+  <!-- Recuerdos de antes de que me convirtiera en un minion -->
+</div>
+
+  </div>
+
+  <audio id="bg-music" loop>
+    <source src="mejor_hombre.mp3" type="audio/mpeg">
+    Tu navegador no soporta el audio.
+  </audio>
+
+  <script src="script.js"></script>
+  <!-- Botón carta y contenedor de carta escrita -->
+<div class="love-letter">
+  <button onclick="toggleLetter()">💌</button>
+  <div id="letter-content" class="letter hidden">
+    <div class="letter-paper">
+      <h2>Mi querida VIVI,</h2>
+      <p>
+        <br>
+        I couldn't sleep last night because I know that it's over between us. I'm not bitter anymore, because I know that what we had was real.
+        And if in some distant place in the future we see each other in our new lives, I'll smile at you with joy and remember how we spent
+        the summer beneath the trees, learning from each other and growing in love.<br><br>
+        The best love is the kind that awakens the soul and makes us reach for more, that plants a fire in our hearts and brings peace to our minds,
+        and that's what you've given me. That's what I hope to give to you forever.<br><br>
+        I love you.<br>
+        I'll be seeing you. Saul VC.... ily
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
