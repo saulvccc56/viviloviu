@@ -185,7 +185,7 @@ const memoriesData = [
   },
   {
     src: 'foto3.png',
-    description: 'Recuerdo 3: de peques.'
+    description: 'Recuerdo 3: ahi posando como el tuhng tuhng sahur.'
   }
 ];
 
